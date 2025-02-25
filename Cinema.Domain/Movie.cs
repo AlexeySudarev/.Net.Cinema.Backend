@@ -6,7 +6,7 @@ namespace Cinema.Domain
     {
         public int Id { get; set; }
         public string Title { get; set; }
-        public int Year { get; }
+        public int Year { get; set; }
         public int AgeRating { get; set; }
         public CountryType Country { get; set; }
         public MovieType Type { get; set; }

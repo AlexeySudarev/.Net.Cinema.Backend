@@ -4,7 +4,7 @@ namespace Cinema.Domain
 {
     public class Movie
     {
-        public Guid Id { get; set; }
+        public int Id { get; set; }
         public string Title { get; set; }
         public int Year { get; }
         public int AgeRating { get; set; }
